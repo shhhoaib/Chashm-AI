@@ -1,0 +1,36 @@
+# Chashm AI - Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project data
+data/
+chashm_ai.db
+
+# Environment
+.env
+
+# Generated test files
+test_cv2_out.png
+test_pil.png
+test_scan.png
+test_model.png
+test_viz/
+test_viz2/
+
+# OS
+Thumbs.db
+.DS_Store
